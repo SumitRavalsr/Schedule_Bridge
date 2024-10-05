@@ -18,7 +18,7 @@ const About = (req, res) => {
 };
 
 const Contact = (req, res) => {
-    res.sendFile(path.join(__dirname, '../Pages/Contact-Us.html'));
+    res.sendFile(path.join(__dirname, '../Pages/Contact-us.html'));
 };
 
 const Members = (req, res) => {
