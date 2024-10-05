@@ -14,7 +14,7 @@ const Home = (req, res) => {
 };
 
 const About = (req, res) => {
-    res.sendFile(path.join(__dirname, '../Pages/About-Us.html'));
+    res.sendFile(path.join(__dirname, '../Pages/About-us.html'));
 };
 
 const Contact = (req, res) => {
